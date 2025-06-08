@@ -50,8 +50,6 @@ function App() {
               onPageChange={({ selected }) => setPage(selected + 1)}
               forcePage={Math.max(0, page - 1)}
               containerClassName={css.pagination}
-              pageClassName={css.li}
-              pageLinkClassName={css.a}
               activeClassName={css.active}
               previousLabel="←"
               nextLabel="→"
